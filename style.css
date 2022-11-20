@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  background-color: #90abb7;
+  color: #0e0e38;
+  padding: 3.2rem;
+}
+
+main {
+  background-color: #dee2e7;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+}
+main h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.tags {
+  display: flex;
+  gap: 0.8rem;
+  color: #0e0e38;
+}
+
+.tags .btn {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  gap: 1.6rem;
+  width: 100%;
+}
+.card {
+  margin-top: 1.6rem;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f4f8;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 1.2rem;
+}
+.card img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.three {
+  display: flex;
+  gap: 1rem;
+}
+.three img {
+  width: 30%;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 750px) {
+  .cards {
+    display: block;
+  }
+}
